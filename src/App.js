@@ -11,7 +11,6 @@ function App() {
   useEffect(()=>{
     getLocal();
   },[]);
-
   useEffect(()=>{
     filterHandler();
     saveLocalTodos();
